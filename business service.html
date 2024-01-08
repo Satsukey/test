@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>***タイトル***</title>
+  <link rel="stylesheet" href="//unpkg.com/destyle.css@4.0.0/destyle.min.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- <?php include("./header.php") ?> -->
+
+    <header id="header">
+      <nav class="p-header__pc">
+        <a class="p-header__pc-logo" href="#">
+          <img src="./images/logo.svg" width="276" height="37" alt="愛岐工業株式会社" decoding="async">
+        </a>
+        <ul class="p-header-nav__pc">
+          <li><a class="p-header-nav__pc-link" href="#">
+              <div class="p-header-nav__icon"><img class="p-header-nav__icon--top" src="./images/header__icon--top.svg"
+                  width="20" height="20" alt="" decoding="async"></div>TOP
+            </a></li>
+          <li><a class="p-header-nav__pc-link" href="#">
+              <div class="p-header-nav__icon"><img class="p-header-nav__icon--company-profile"
+                  src="./images/header__icon--company-profile.svg" width="20" height="20" alt="" decoding="async"></div>
+              会社案内
+            </a></li>
+          <li><a class="p-header-nav__pc-link" href="#">
+              <div class="p-header-nav__icon"><img class="p-header-nav__icon--business-service"
+                  src="./images/header__icon--business-service.svg" width="20" height="20" alt="" decoding="async">
+              </div>事業案内
+            </a></li>
+          <li><a class="p-header-nav__pc-link" href="#">
+              <div class="p-header-nav__icon"><img class="p-header-nav__icon--news"
+                  src="./images/header__icon--company-profile.svg" width="20" height="20" alt="" decoding="async"></div>
+              お知らせ
+            </a></li>
+          <li><a class="p-header-nav__pc-link" href="#">
+              <div class="p-header-nav__icon"><img class="p-header-nav__icon--construction-example"
+                  src="./images/header__icon--construction-example.svg" width="20" height="20" alt="" decoding="async">
+              </div>施工事例
+            </a></li>
+          <li><a class="p-header-nav__pc-link" href="#">
+              <div class="p-header-nav__icon"><img class="p-header-nav__icon--recruit"
+                  src="./images/header__icon--recruit.svg" width="20" height="20" alt="" decoding="async"></div>求人案内
+            </a></li>
+          <li><a class="p-header-nav__pc-link" href="#">
+              <div class="p-header-nav__icon"><img class="p-header-nav__icon--contact"
+                  src="./images/header__icon--contact.svg" width="20" height="20" alt="" decoding="async"></div>お問合わせ
+            </a></li>
+        </ul>
+      </nav>
+      <div class="p-header__sp-hamburger" id="js-sp-hamburger"><span></span><span></span><span></span></div>
+      <div class="p-header__sp-menu hidden" id="js-sp-menu">
+        <ul class="p-header-nav__sp">
+          <li><a class="p-header-nav__sp-link" href="#">
+              <div class="p-header-nav__icon"><img class="p-header-nav__icon--top" src="./images/header__icon--top.svg"
+                  width="20" height="20" alt="" decoding="async"></div>TOP
+            </a></li>
+          <li><a class="p-header-nav__sp-link" href="#">
+              <div class="p-header-nav__icon"><img class="p-header-nav__icon--company-profile"
+                  src="./images/header__icon--company-profile.svg" width="20" height="20" alt="" decoding="async"></div>
+              会社案内
+            </a></li>
+          <li><a class="p-header-nav__sp-link" href="#">
+              <div class="p-header-nav__icon"><img class="p-header-nav__icon--business-service"
+                  src="./images/header__icon--business-service.svg" width="20" height="20" alt="" decoding="async">
+              </div>事業案内
+            </a></li>
+          <li><a class="p-header-nav__sp-link" href="#">
+              <div class="p-header-nav__icon"><img class="p-header-nav__icon--news"
+                  src="./images/header__icon--company-profile.svg" width="20" height="20" alt="" decoding="async"></div>
+              お知らせ
+            </a></li>
+          <li><a class="p-header-nav__sp-link" href="#">
+              <div class="p-header-nav__icon"><img class="p-header-nav__icon--construction-example"
+                  src="./images/header__icon--construction-example.svg" width="20" height="20" alt="" decoding="async">
+              </div>施工事例
+            </a></li>
+          <li><a class="p-header-nav__sp-link" href="#">
+              <div class="p-header-nav__icon"><img class="p-header-nav__icon--recruit"
+                  src="./images/header__icon--recruit.svg" width="20" height="20" alt="" decoding="async"></div>求人案内
+            </a></li>
+          <li><a class="p-header-nav__sp-link" href="#">
+              <div class="p-header-nav__icon"><img class="p-header-nav__icon--contact"
+                  src="./images/header__icon--contact.svg" width="20" height="20" alt="" decoding="async"></div>お問い合わせ
+            </a></li>
+        </ul>
+        <a class="p-header__sp-logo" href="#">
+          <img src="./images/logo.svg" width="276" height="37" alt="愛岐工業株式会社" decoding="async">
+        </a>
+      </div>
+      <a class="c-button__scroll-to-top" href="#">
+        <img src="./images/c-button__scroll-to-top.svg" width="64" height="64" alt="Scroll To Top" decoding="async">
+      </a>
+    </header>
+
+    <section class="p-sub-first-view">
+      <div class="l-inner p-sub-first-view__inner">
+        <div class="p-sub-first-view__title">
+          <div class="p-sub-first-view__title-image-wrap">
+            <img src="./images/business-service_first-view__title-image.svg" alt="business service"
+              class="p-sub-first-view__title-image">
+          </div>
+        </div>
+        <div class="p-sub-first-view__breadcrumb">
+          <div class="breadcrumb">
+            パンくずリスト
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-sub-business-service">
+      <div class="p-sub-business-service__inner l-inner">
+        <h2 class="c-sub-section-title">道路標示工事・路面標示工事</h2>
+        <h3 class="p-sub-business-service__sub-title">簡単に言うと<br class="u-sp"><span
+            class="text--right">「道路や駐車場にラインを引く仕事」。</span><br class="u-pc">実は「安心・安全な街づくりに<br class="u-sp"><span
+            class="text--right">欠かせない、大切な仕事」です。</span></h3>
+        <div class="p-sub-description__body">
+          <div class="p-sub-description__text-wrapper">
+            <p class="p-sub-description__text">
+              制限速度を示す標示、「カーブ注意」などの標示など、路面に描かれている規制、注意を促す白やオレンジ色の文字のことを「道路標示」や「路面標識」と言います。
+              また、車線や中央線、追越し禁止線など、交通誘導のためのラインのことを「区画線」と言います。<br>当社は地元である岐阜県各務原市を中心に、それら道路標示や路面標識、区画線などの設計・施工・補修を行う企業です。
+            </p>
+            <p class="p-sub-description__text">
+              それらの施工は、まず現場を測量し、どのように描くかを作図するところから始まります。その後、200度まで加熱して溶かした塗料を使い、図面通りに文字やラインを描いていきます。
+            </p>
+            <p class="p-sub-description__text">
+              どの作業にも長年にわたって培った技術が不可欠です。また、当社には国家資格である「路面標示施工技能士」を取得したスタッフが●名所属（令和5年11月現在）。チームワークを発揮して日々の業務に取り組んでいます。
+            </p>
+            <p class="p-sub-description__text">
+              これからも「道路のスペシャリスト集団」として地域社会に貢献できるよう、力を尽くします。
+            </p>
+          </div>
+          <div class="p-sub-description__image">
+            <img src="./images/business-service_road-sign__image.jpg" alt="路面表示施行中の様子">
+          </div>
+        </div>
+      </div>
+
+      <div class="p-sub-business-service-construction">
+        <div class="p-sub-business-service-construction__inner l-inner">
+          <ul class="p-sub-business-service-construction__list">
+            <li class="p-sub-business-service-construction__item">
+              <div class="p-sub-business-service-construction__card c-card">
+                <p class="c-card__heading">道路標示・路面標示・区画線</p>
+                <div class="c-card__image">
+                  <img src="./images/sample-image-100.jpg" alt="sample image">
+                </div>
+                <div class="c-card__body">
+                  <p class="c-card__text">
+                    制交通の安全と円滑化に大きな役割を果たす道路標示、路面標識、区画線など、路面塗装の設計・施工を行います。新規のライン引き、劣化したラインの引き直しなど、柔軟に対応しております。</p>
+                </div>
+                <ul class="c-card__list">
+                  <li class="c-card__item">一般道路（道路標示・路面標識・区画線）</li>
+                  <li class="c-card__item">一般道路（道路標示・路面標識・区画線）</li>
+                  <li class="c-card__item c-card__item--nonstyle">など</li>
+                </ul>
+                <ul class="c-card__category-list">
+                  <li class="c-card__category">溶融手動式</li>
+                  <li class="c-card__category">溶融手動式</li>
+                  <li class="c-card__category">溶融手動式</li>
+                </ul>
+              </div>
+            </li>
+            <li class="p-sub-business-service-construction__item">
+              <div class="p-sub-business-service-construction__card c-card">
+                <p class="c-card__heading">道路標示・路面標示・区画線</p>
+                <div class="c-card__image">
+                  <img src="./images/sample-image-100.jpg" alt="sample image">
+                </div>
+                <div class="c-card__body">
+                  <p class="c-card__text">
+                    制交通の安全と円滑化に大きな役割を果たす道路標示、路面標識、区画線など、路面塗装の設計・施工を行います。新規のライン引き、劣化したラインの引き直しなど、柔軟に対応しております。</p>
+                </div>
+                <ul class="c-card__list">
+                  <li class="c-card__item">一般道路（道路標示・路面標識・区画線）</li>
+                  <li class="c-card__item">一般道路（道路標示・路面標識・区画線）</li>
+                  <li class="c-card__item c-card__item--nonstyle">など</li>
+                </ul>
+                <ul class="c-card__category-list">
+                  <li class="c-card__category">溶融手動式</li>
+                  <li class="c-card__category">溶融手動式</li>
+                  <li class="c-card__category">溶融手動式</li>
+                </ul>
+              </div>
+            </li>
+            <li class="p-sub-business-service-construction__item">
+              <div class="p-sub-business-service-construction__card c-card">
+                <p class="c-card__heading">道路標示・路面標示・区画線</p>
+                <div class="c-card__image">
+                  <img src="./images/sample-image-100.jpg" alt="sample image">
+                </div>
+                <div class="c-card__body">
+                  <p class="c-card__text">
+                    制交通の安全と円滑化に大きな役割を果たす道路標示、路面標識、区画線など、路面塗装の設計・施工を行います。新規のライン引き、劣化したラインの引き直しなど、柔軟に対応しております。</p>
+                </div>
+                <ul class="c-card__list">
+                  <li class="c-card__item">一般道路（道路標示・路面標識・区画線）</li>
+                  <li class="c-card__item">一般道路（道路標示・路面標識・区画線）</li>
+                  <li class="c-card__item c-card__item--nonstyle">など</li>
+                </ul>
+                <ul class="c-card__category-list">
+                  <li class="c-card__category">溶融手動式</li>
+                  <li class="c-card__category">溶融手動式</li>
+                  <li class="c-card__category">溶融手動式</li>
+                </ul>
+              </div>
+            </li>
+            <li class="p-sub-business-service-construction__item">
+              <div class="p-sub-business-service-construction__card c-card">
+                <p class="c-card__heading">道路標示・路面標示・区画線</p>
+                <div class="c-card__image">
+                  <img src="./images/sample-image-100.jpg" alt="sample image">
+                </div>
+                <div class="c-card__body">
+                  <p class="c-card__text">
+                    制交通の安全と円滑化に大きな役割を果たす道路標示、路面標識、区画線など、路面塗装の設計・施工を行います。新規のライン引き、劣化したラインの引き直しなど、柔軟に対応しております。</p>
+                </div>
+                <ul class="c-card__list">
+                  <li class="c-card__item">一般道路（道路標示・路面標識・区画線）</li>
+                  <li class="c-card__item">一般道路（道路標示・路面標識・区画線）</li>
+                  <li class="c-card__item c-card__item--nonstyle">など</li>
+                </ul>
+                <ul class="c-card__category-list">
+                  <li class="c-card__category">溶融手動式</li>
+                  <li class="c-card__category">溶融手動式</li>
+                  <li class="c-card__category">溶融手動式</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="p-sub-business-service-construction__others other-service">
+            <p class="c-card__heading other-service__heading">その他の業務</p>
+            <p class="other-service__title">すべてをワンストップで<br class="u-sp">ご提供いたします。</p>
+            <ul class="other-service__list">
+              <li class="c-card__item other-service__item">道路標識</li>
+              <li class="c-card__item other-service__item">防護柵</li>
+              <li class="c-card__item other-service__item">コンクリート補修</li>
+              <li class="c-card__item other-service__item">屋外サイン</li>
+              <li class="c-card__item other-service__item">交通安全施設一式</li>
+              <li class="c-card__item other-service__item">一般塗装</li>
+              <li class="c-card__item other-service__item">道路反射鏡</li>
+              <li class="c-card__item other-service__item">橋梁・歩道橋補修</li>
+              <li class="c-card__item other-service__item">公園施設維持修繕</li>
+              <li class="c-card__item other-service__item">ガードレール・ガードパイプ</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- <?php include("./section-recruit.php") ?> -->
+
+    <section class="p-section-recruit">
+      <img class="p-section-recruit__image" src="./images/section-recruit__image.png" alt="" width="567" height="396"
+        decoding="async">
+      <div class="p-section-recruit__inner">
+        <img class="p-section-recruit__title-image" src="./images/section-recruit__title-image.svg" alt="RECRUIT"
+          width="429" height="116" decoding="async">
+        <h2 class="p-section-recruit__title-text">採用情報</h2>
+        <div class="p-section-recruit__button-wrap">
+          <a class="c-button__view-more c-button__view-more--white" href="#">VIEW MORE</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- <?php include("./footer.php") ?> -->
+
+  <footer id="footer" class="p-footer">
+    <div class="l-inner">
+      <div class="p-footer__inner">
+        <div class="p-footer__company">
+          <a class="p-footer__logo" href="#">
+            <img src="./images/logo--gray.svg" width="334" height="45" alt="愛岐工業株式会社" decoding="async">
+          </a>
+          <div class="p-footer__address">〒504-0927　岐阜県各務原市上戸町3丁目168</div>
+        </div>
+
+        <div class="p-footer__body">
+          <ul class="p-footer__nav">
+            <li><a class="p-footer__link" href="#">TOP</a></li>
+            <li><a class="p-footer__link" href="#">会社案内</a></li>
+            <li><a class="p-footer__link" href="#">事業案内</a></li>
+            <li><a class="p-footer__link" href="#">お知らせ</a></li>
+            <li><a class="p-footer__link" href="#">施工事例</a></li>
+            <li><a class="p-footer__link" href="#">求人案内</a></li>
+            <li><a class="p-footer__link" href="#">お問合わせ</a></li>
+          </ul>
+          <div class="p-footer__box">
+            <p class="p-footer__message">お気軽にお問い合わせください。</p>
+            <div class="p-footer__information">
+              <div class="p-footer__phone">
+                <img class="p-footer__phone-icon" src="./images/footer__icon--phone.svg" width="9" height="9"
+                  alt="Phone" decoding="async">058-389-3770
+              </div>
+              <p class="p-footer__businesshour">受付時間 00:00〜00:00　定休／土曜・日曜・祝祭日</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="p-footer__copyright">&copy; 2023.愛岐⼯業株式会社</p>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js" defer></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+      // SPナビメニュー表示時（<body> position:fixed）、p-top-first-view の width を制御する
+      if (window.innerWidth <= 750) {
+        $('#main').width($(window).width());
+      }
+      $(window).resize(function () {
+        if (window.innerWidth <= 750) {
+          $('#main').width($(window).width());
+        } else {
+          $('#main').removeAttr('style');
+        }
+      });
+
+      // ハンバーガーメニュー
+      $('#js-sp-hamburger').on('click', function () {
+        $('#js-sp-menu').toggleClass('is-open');
+        $('body').toggleClass('is-fixed');
+      });
+      $('#js-sp-menu').on('click', function () {
+        $('#js-sp-menu').toggleClass('is-open');
+        $('body').toggleClass('is-fixed');
+      });
+      $(window).resize(function () {
+        if (window.innerWidth > 750) {
+          $('#js-sp-menu').removeClass('is-open');
+          $('body').removeClass('is-fixed');
+        }
+      });
+
+      // スライダー
+      $('#js-slick__works').slick({
+        infinite: true, // スライドのループを有効(true)
+        centerMode: true, // 前後のスライドを部分的に含めてスライドを中央に表示(true)
+        initialSlide: 1,  // 初期表示スライド
+        slidesToScroll: 1,  // スライドした際にスクロールされるスライド数
+        variableWidth: true,  // スライド幅の自動計算を無効(true)
+        prevArrow: '<div class="p-top-works__slide-prev"></div>', // "前へ"の矢印を変更
+        nextArrow: '<div class="p-top-works__slide-next"></div>', // "次へ"の矢印を変更
+        responsive: [{
+          breakpoint: 751,  // 750px以下の場合
+          settings: {
+            initialSlide: 0, // 初期表示スライドを指定
+          }
+        }]
+      });
+    });
+  </script>
+
+</body>
+
+</html>
